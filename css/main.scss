@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap');
+* {
+    margin: 0;
+    font-family: Poppins, serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        // border: 1px solid red;
+        margin:10px 0px 0px 30px;
+        font-family: Delicious Handrawn, serif;
+        font-size: 30px;
+        font-weight: bold;
+        span{
+            color:#ff735c ;
+        }
+    }
+    .navigation{
+    
+        ul{
+            margin-top: 7px;
+            margin-right: 10px;
+            
+            li{
+                float: left;
+                list-style-type: none;
+                padding: 10px;
+                
+                
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+section{
+    display:flex;
+    justify-self: space-between;
+    padding-bottom: 20px;
+
+    .section-left {
+        margin-left: 70px;
+    }
+
+    .section-right {
+        margin-top: 50px;
+        div{
+            
+            
+            form{
+                display: flex;
+                padding-bottom: 15px;
+                
+                .search{
+                    border-radius: 10px;
+                    border: 3px solid #ff735c;
+                    width: 615px;    
+                    display: block;    
+                }
+                .button {
+                    background-color: black;
+                    margin-left: 10px;
+                    color: white;
+                    font-size: 20px;
+                    border-radius: 10px;
+                }
+            }
+            .content {
+                padding-bottom: 20px;
+                padding-right: 20px;
+            }
+            .books{
+    
+                text-align: center;
+                margin: 0 auto;
+            }
+            }
+        }
+    }
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff735c;
+
+    .container-2-left{
+        ul{
+            padding-left: 0px;
+            li{
+                list-style-type: none;
+                float: right;
+                padding: 7px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+        
+    }
+
+    .container-2-right {
+        ul {
+            margin-right: 7px;
+            li{
+                padding: 7px;
+                list-style-type: none;
+                float: left;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+         
+    }
+
+}

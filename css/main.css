@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap");
+* {
+  margin: 0;
+  font-family: Poppins, serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo {
+  margin: 10px 0px 0px 30px;
+  font-family: Delicious Handrawn, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar .logo span {
+  color: #ff735c;
+}
+.navbar .navigation ul {
+  margin-top: 7px;
+  margin-right: 10px;
+}
+.navbar .navigation ul li {
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+}
+.navbar .navigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  justify-self: space-between;
+  padding-bottom: 20px;
+}
+section .section-left {
+  margin-left: 70px;
+}
+section .section-right {
+  margin-top: 50px;
+}
+section .section-right div form {
+  display: flex;
+  padding-bottom: 15px;
+}
+section .section-right div form .search {
+  border-radius: 10px;
+  border: 3px solid #ff735c;
+  width: 615px;
+  display: block;
+}
+section .section-right div form .button {
+  background-color: black;
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+section .section-right div .content {
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+section .section-right div .books {
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff735c;
+}
+footer .container-2-left ul {
+  padding-left: 0px;
+}
+footer .container-2-left ul li {
+  list-style-type: none;
+  float: right;
+  padding: 7px;
+}
+footer .container-2-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer .container-2-right ul {
+  margin-right: 7px;
+}
+footer .container-2-right ul li {
+  padding: 7px;
+  list-style-type: none;
+  float: left;
+}
+footer .container-2-right ul li a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

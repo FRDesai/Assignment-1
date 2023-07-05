@@ -60,6 +60,7 @@ section .section-right div form .button {
   color: white;
   font-size: 20px;
   border-radius: 10px;
+  cursor: pointer;
 }
 section .section-right div .content {
   padding-bottom: 20px;
